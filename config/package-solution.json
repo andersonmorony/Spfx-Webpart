@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "raizen-web-parts-client-side-solution",
+    "id": "414ea0d1-14b1-4618-8c31-e31cf18c856c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Raizen-WebParts description"
+      },
+      "longDescription": {
+        "default": "Raizen-WebParts description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "raizen-web-parts Feature",
+        "description": "The feature that activates elements of the raizen-web-parts solution.",
+        "id": "e3131d71-f05a-46b0-8496-8798f37d25d6",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/raizen-web-parts.sppkg"
+  }
+}

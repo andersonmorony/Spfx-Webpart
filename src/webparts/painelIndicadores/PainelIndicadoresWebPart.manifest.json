@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "898ccb86-bb1d-4918-aaf3-44d5b9909c79",
+  "alias": "PainelIndicadoresWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+  "supportsFullBleed": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Advanced" },
+    "title": { "default": "Painel Indicadores" },
+    "description": { "default": "Painel Indicadores description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Painel Indicadores"
+    }
+  }]
+}

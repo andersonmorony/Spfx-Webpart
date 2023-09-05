@@ -1,0 +1,27 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.container {
+  background-color: rgb(129,0,129);
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+
+  .conteudo {
+    text-align: center;
+    color: #fff;
+    .titulo {
+      font-size: 2rem;
+    }
+    .texto {
+      max-width: 730px;
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 1rem;
+    }
+    .my-4 {
+      width: 50px;
+      border-color: #fff;
+      border-top: 1px solid rgba(0,0,0,.1);
+      margin-bottom: 1.5rem!important;
+    }
+  }
+}

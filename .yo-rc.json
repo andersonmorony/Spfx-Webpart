@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "16.13.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.4",
+    "libraryName": "raizen-web-parts",
+    "libraryId": "414ea0d1-14b1-4618-8c31-e31cf18c856c",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Raizen-WebParts",
+    "solutionShortDescription": "Raizen-WebParts description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
